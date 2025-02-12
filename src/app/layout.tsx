@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AI工具箱 | AI Toolbox",
-  description: "精选优质AI工具集合 | A curated collection of high-quality AI tools",
+  title: "AI Toolbox",
+  description: "This project demonstrates my practical experience and working patterns in collaborating with AI in daily work.",
 };
 
 export default function RootLayout({
