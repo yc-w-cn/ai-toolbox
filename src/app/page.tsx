@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { aiTools } from "@/data/ai-tools";
+import { solve } from "@/utils";
 
 export default function Home() {
   return (
@@ -17,10 +18,10 @@ export default function Home() {
             >
               <div className="w-16 h-16 relative">
                 <Image
-                  src={tool.icon}
+                  src={solve(tool.icon)}
                   alt={`${tool.name} icon`}
                   fill
-                  className="object-contain transition-transform group-hover:scale-110"
+                  className="object-contain rounded-lg transition-transform group-hover:scale-110"
                 />
               </div>
               <h2 className="text-lg font-semibold text-center">{tool.name}</h2>
