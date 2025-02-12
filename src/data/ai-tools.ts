@@ -20,4 +20,9 @@ export const aiTools: AITool[] = [
     icon: "/assets/ai-tools/doubao.png",
     url: "https://www.doubao.com",
   },
+  {
+    name: "KIMI",
+    icon: "/assets/ai-tools/kimi.jpg",
+    url: "https://kimi.moonshot.cn/",
+  },
 ];
