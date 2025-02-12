@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "gh-pages -d out -t true"
+    "deploy": "gh-pages -d out -t"
   },
   "dependencies": {
     "@shadcn/ui": "^0.0.4",
