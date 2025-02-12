@@ -2,6 +2,7 @@
   "name": "@yc-w-cn/ai-toolbox",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://yc-w-cn.github.io/ai-toolbox",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
